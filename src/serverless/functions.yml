@@ -1,0 +1,7 @@
+test:
+  handler: handler.test
+  memorySize: 128
+  events:
+    - http:
+        method: get
+        path: test
